@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartsourcemap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "get sourcemap support in node",
   "main": "dist/index.js",
