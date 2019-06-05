@@ -1,0 +1,37 @@
+{
+  "name": "@pushrocks/smartsourcemap",
+  "version": "1.0.1",
+  "private": false,
+  "description": "get sourcemap support in node",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "scripts": {
+    "test": "(tstest test/)",
+    "build": "(tsbuild)",
+    "format": "(gitzone format)"
+  },
+  "devDependencies": {
+    "@gitzone/tsbuild": "^2.1.11",
+    "@gitzone/tstest": "^1.0.24",
+    "@pushrocks/tapbundle": "^3.0.9",
+    "@types/node": "^12.0.4",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "@types/source-map-support": "^0.5.0",
+    "source-map-support": "^0.5.12"
+  },
+  "files": [
+    "ts/*",
+    "ts_web/*",
+    "dist/*",
+    "dist_web/*",
+    "assets/*",
+    "cli.js",
+    "npmextra.json",
+    "readme.md"
+  ]
+}

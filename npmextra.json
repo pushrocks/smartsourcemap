@@ -1,0 +1,17 @@
+{
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartsourcemap",
+      "shortDescription": "get sourcemap support in node",
+      "npmPackagename": "@pushrocks/smartsourcemap",
+      "license": "MIT",
+      "projectDomain": "push.rocks"
+    }
+  },
+  "npmci": {
+    "npmGlobalTools": [],
+    "npmAccessLevel": "public"
+  }
+}
